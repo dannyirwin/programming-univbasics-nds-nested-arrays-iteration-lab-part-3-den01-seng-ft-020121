@@ -4,8 +4,8 @@ def join_nested_strings(src)
   
   result = ""
   
-  src.times do |i|
-    src[i].times do |j|
+  src.length.times do |i|
+    src[i].length.times do |j|
       sum << src[i][j] if src[i][j].is_a?(String)
     end 
   end
