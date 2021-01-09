@@ -6,7 +6,7 @@ def join_nested_strings(src)
   
   src.times do |i|
     src[i].times do |j|
-      sum << src[i][j].to_s
+      sum << src[i][j]
     end 
   end
   result
