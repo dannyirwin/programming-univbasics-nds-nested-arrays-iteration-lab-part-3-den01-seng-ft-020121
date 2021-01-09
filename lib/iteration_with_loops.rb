@@ -9,4 +9,5 @@ def join_nested_strings(src)
       sum += src[i][j]
     end 
   end
+  sum
 end
