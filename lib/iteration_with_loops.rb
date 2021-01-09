@@ -2,12 +2,12 @@ def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
   
-  sum = 0 
+  result = ""
   
   src.times do |i|
     src[i].times do |j|
-      sum += src[i][j]
+      sum << src[i][j]
     end 
   end
-  sum
+  result
 end
