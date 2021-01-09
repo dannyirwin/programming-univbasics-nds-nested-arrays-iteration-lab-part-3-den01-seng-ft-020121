@@ -4,7 +4,9 @@ def join_nested_strings(src)
   
   sum = 0 
   
-  src.times do
-    
+  src.times do |i|
+    src[i].times do |j|
+      sum += src[i][j]
+    end 
   end
 end
