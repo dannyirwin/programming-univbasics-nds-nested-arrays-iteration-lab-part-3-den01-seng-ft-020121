@@ -9,7 +9,7 @@ def join_nested_strings(src)
       result << src[i][j] if src[i][j].is_a?(String)
     end 
   end
-  result
+  p result
 end
 
 arr = [
