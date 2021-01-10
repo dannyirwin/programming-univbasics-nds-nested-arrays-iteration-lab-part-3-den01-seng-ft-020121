@@ -6,7 +6,7 @@ def join_nested_strings(src)
   
   src.length.times do |i|
     src[i].length.times do |j|
-      sum << src[i][j] if src[i][j].is_a?(String)
+      result << src[i][j] if src[i][j].is_a?(String)
     end 
   end
   result
